@@ -1,8 +1,8 @@
 import React, { useRef, useState, useEffect } from "react";
 import { IoIosAddCircle } from "react-icons/io";
 import { IoIosCheckmarkCircle } from "react-icons/io";
-import NavBar from "../components/NavBar";
-import Keeps from "../components/Keeps";
+import NavBar from "../../components/NavBar";
+import Keeps from "../../components/Keeps";
 
 const Homepage = () => {
   const [isTextareaVisible, setIsTextareaVisible] = useState(false);

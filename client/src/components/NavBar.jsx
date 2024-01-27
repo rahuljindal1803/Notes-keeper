@@ -25,7 +25,10 @@ const NavBar = () => {
           />
         </label>
       </div>
-      <div className="flex justify-center ">
+      <div className="flex justify-between  w-2/12 ">
+        <button className=" my-4  w-20  bg-blue-700 text-slate-50 rounded-xl">
+          SignUp
+        </button>
         <button className=" my-4  w-20  bg-blue-700 text-slate-50 rounded-xl">
           Login
         </button>
